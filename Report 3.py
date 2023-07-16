@@ -7,6 +7,6 @@ for i in L:
         notes_needed=amount//i
         print(notes_needed,"Note(s) of",i)
         amount-=notes_needed*i
-
+        
     else:
         print("0 Note(s) of",i)

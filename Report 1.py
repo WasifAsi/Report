@@ -21,6 +21,6 @@ elif(150000<salary<=250000):
 elif(salary>250000):
     net_salary= salary*88/100
     print("Net Salary ",net_salary)
-    
+
 else:
     print("Wrong Input")
