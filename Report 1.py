@@ -1,7 +1,7 @@
 #Variable
 salary=0
 net_salary=0
-first=0 #
+first=0 
 second=0
 third=0
 tax=0
@@ -10,11 +10,11 @@ tax=0
 salary=int(input("Ender the Monthly Gross Salary : "))
 
 #process and output
-if (0<salary<=99999):
+if (1<=salary<=99999):
     net_salary=salary
     print("Net Salary ",net_salary)
 
-elif(100000<=salary<=150000):
+elif(100000<=salary<= 150000):
     first=salary-99999
     tax=first*5/100
     net_salary=salary-tax
